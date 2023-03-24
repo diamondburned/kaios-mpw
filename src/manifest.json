@@ -3,8 +3,8 @@
   "name": "mpw",
   "short_name": "mpw",
   "description": "mpw is a webapp for MasterPassword",
-  "theme_color": "#eb99a1",
-  "background_color": "#120c0e",
+  "theme_color": "#5fafd7",
+  "background_color": "#11171a",
   "icons": [
     {
       "src": "/favicon.png",
@@ -24,9 +24,9 @@
   },
   "locales": {
     "en-US": {
-      "name": "Hello, World!",
-      "subtitle": "A Hello World example in Svelte",
-      "description": "A Hello World example in Svelte"
+      "name": "mpw",
+      "subtitle": "mpw is a webapp for MasterPassword",
+      "description": "mpw is a webapp for MasterPassword"
     }
   },
   "default_locale": "en-US"
