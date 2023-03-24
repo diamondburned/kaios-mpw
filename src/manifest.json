@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "mpw",
+  "short_name": "mpw",
+  "description": "mpw is a webapp for MasterPassword",
+  "theme_color": "#eb99a1",
+  "background_color": "#120c0e",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "developer": {
+    "name": "diamondburned",
+    "url": "https://libdb.so"
+  },
+  "locales": {
+    "en-US": {
+      "name": "Hello, World!",
+      "subtitle": "A Hello World example in Svelte",
+      "description": "A Hello World example in Svelte"
+    }
+  },
+  "default_locale": "en-US"
+}

@@ -1,0 +1,54 @@
+$color-force: #2a7da6;
+$color-blossom: lighten($color-force, 20%);
+$color-fade: $color-force;
+
+$color-bg: #11171a;
+$color-bg-alt: #3a4247;
+
+$color-text: #d8dbdc;
+$font-size-base: 1.8rem;
+
+$font-family-base: "Source Sans Pro", "Helvetica Neue", sans-serif;
+$font-family-heading: $font-family-base;
+
+@import "normalize.css";
+@import "sakura.css/scss/main";
+
+:root {
+  --color-force: #{$color-force};
+  --color-blossom: #{$color-blossom};
+  --color-fade: #{$color-fade};
+  --color-bg: #{$color-bg};
+  --color-bg-alt: #{$color-bg-alt};
+  --color-text: #{$color-text};
+}
+
+body {
+  padding: 0 1rem;
+}
+
+section {
+  margin-bottom: 2.5rem;
+}
+
+button {
+  margin-top: 0.5em;
+  margin-right: 0.5em;
+}
+
+input {
+  max-width: 100%;
+}
+
+code {
+  padding: 0 0.15em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 1.5rem 0;
+}
